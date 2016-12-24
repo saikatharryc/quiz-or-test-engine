@@ -1,7 +1,6 @@
 <?php
-/*
- * Site : http:www.smarttutorials.net
- * Author :muni
+/*www.saikat.cf
+ * Author :saikat
  * 
  */
  require_once 'config.php';

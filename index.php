@@ -12,7 +12,7 @@ require 'config.php';
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Responsive Quiz Application Using PHP, MySQL, jQuery, Ajax and Twitter Bootstrap</title>
+		<title>Responsive quiz application</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -52,16 +52,14 @@ require 'config.php';
 							    <select class="form-control" name="category" id="category">
 							        <option value="">Choose your category</option>
                                   <option value="1">Sports</option>
-                                  <option value="2">HTML</option>
-                                  <option value="3">PHP</option>
-                                  <option value="4">CSS</option>                                
+                                                              
                                 </select>
                                 <span class="help-block"></span>
 							</div>
 							
 							<br>
 							<button class="btn btn-success btn-block" type="submit">
-								Kiss Me!!!
+								Click Me!!!
 							</button>
 						</form>
 						
@@ -71,16 +69,14 @@ require 'config.php';
                                 <select class="form-control" name="category" id="category">
                                     <option value="">Choose your category</option>
                                   <option value="1">Sports</option>
-                                  <option value="2">HTML</option>
-                                  <option value="3">PHP</option>
-                                  <option value="4">CSS</option>                                
+                                                               
                                 </select>
                                 <span class="help-block"></span>
                             </div>
                             
                             <br>
                             <button class="btn btn-success btn-block" type="submit">
-                                Kiss Me!!!
+                               click Me!!!
                             </button>
                         </form>
 						<?php }?>

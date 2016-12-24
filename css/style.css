@@ -1,6 +1,6 @@
 /*
- * Site : http:www.smarttutorials.net
- * Author :muni
+ * Site : www.saikat.cf
+ * Author :saikat
  * 
  */
 
@@ -13,10 +13,13 @@ a{text-decoration: none;color: #fff;}
 header p{padding-top:20px;}
 footer{
 	background: #339966;
-	height: 100px;
+	height: 70px;
 	color:#fff;
+
+
 }
-footer p{padding-top:50px;}
+footer p{padding-top:5px;
+}
 .image{
 	padding-top:10%;
 	height: 453px;

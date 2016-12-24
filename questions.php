@@ -1,10 +1,10 @@
 <?php
 session_start();
 ?>
-<!---
-Site : http:www.smarttutorials.net
- Author :muni
---->
+<!--
+Site : www.saikat.cf
+ Author :saikat chakrabortty
+->
 
 <?php 
 require 'config.php';
@@ -22,7 +22,7 @@ if(!empty($_SESSION['name'])){
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Responsive Quiz Application Using PHP, MySQL, jQuery, Ajax and Twitter Bootstrap</title>
+		<title>Quiz application</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -56,7 +56,7 @@ if(!empty($_SESSION['name'])){
 		<div class="container question">
 			<div class="col-xs-12 col-sm-8 col-md-8 col-xs-offset-4 col-sm-offset-3 col-md-offset-3">
 				<p>
-					Responsive Quiz Application Using PHP, MySQL, jQuery, Ajax and Twitter Bootstrap
+					currently You are taking the quiz test.
 				</p>
 				<hr>
 				<form class="form-horizontal" role="form" id='login' method="post" action="result.php">
@@ -69,7 +69,8 @@ if(!empty($_SESSION['name'])){
                     
                     <?php if($i==1){?>         
                     <div id='question<?php echo $i;?>' class='cont'>
-                    <p class='questions' id="qname<?php echo $i;?>"> <?php echo $i?>.<?php echo $result['question_name'];?></p>
+                    <p class='questions' id="qname<?php echo $i;?>"> <img class="img-responsive" src="image/cr7.jpg" style="max-width: 200px; max-height: 200px;">here can be a image</img><br><?php echo $i?>.<?php echo $result['question_name'];?></p>
+
                     <input type="radio" value="1" id='radio1_<?php echo $result['id'];?>' name='<?php echo $result['id'];?>'/><?php echo $result['answer1'];?>
                    <br/>
                     <input type="radio" value="2" id='radio1_<?php echo $result['id'];?>' name='<?php echo $result['id'];?>'/><?php echo $result['answer2'];?>
@@ -127,9 +128,9 @@ if(!empty($_SESSION['name'])){
 				</form>
 			</div>
 		</div>
-       <footer>
+       <footer class="navbar-fixed-bottom">
             <p class="text-center" id="foot">
-                &copy; <a href="http://smarttutorials.net/" target="_blank">Smart Tutorials </a>2013
+                &copy; <a href="www.saikat.cf" target="_blank">developend by saikat </a>2016
             </p>
         </footer>
 

@@ -1,10 +1,11 @@
 <?php
 session_start();
 ?>
-<!---
-Site : http:www.smarttutorials.net
-Author :muni
---->
+<!--
+Site : www.saikat.cf
+ Author :saikat chakrabortty
+->
+
 
 <?php 
 require 'config.php';
@@ -38,7 +39,7 @@ if(!empty($_SESSION['name'])){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Responsive Quiz Application Using PHP, MySQL, jQuery, Ajax and Twitter Bootstrap</title>
+        <title>Quiz application</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
