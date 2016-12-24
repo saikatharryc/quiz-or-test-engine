@@ -1,7 +1,7 @@
 <?php
 session_start();
 session_destroy();
-header( 'Location: http://localhost/new_quiz/index.php' ) ;
+header( 'Location: http://localhost/lol/nquiz/new_quiz/index.php' ) ;
 ?>
 
 <!---

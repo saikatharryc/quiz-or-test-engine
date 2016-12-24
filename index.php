@@ -1,10 +1,10 @@
 <?php
 session_start();
 ?>
-<!---
-Site : http:www.smarttutorials.net
-Author :muni
---->
+<!--
+Site :www.saikat.cf
+Author :saikat
+-->
 
 <?php
 require 'config.php';
@@ -90,7 +90,7 @@ require 'config.php';
 		</div>
 		<footer>
 			<p class="text-center" id="foot">
-				&copy; <a href="http://smarttutorials.net/" target="_blank">Smart Tutorials </a>2013
+				&copy; <a href="saikat.cf" target="_blank">Developed By saikat </a>2013
 			</p>
 		</footer>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
