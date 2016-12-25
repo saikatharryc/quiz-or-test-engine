@@ -84,7 +84,7 @@ require 'config.php';
 				</div>
 			</div>
 		</div>
-		<footer>
+		<footer class="navbar-fixed-bottom">
 			<p class="text-center" id="foot">
 				&copy; <a href="saikat.cf" target="_blank">Developed By saikat </a>2013
 			</p>

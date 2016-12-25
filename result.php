@@ -92,9 +92,9 @@ if(!empty($_SESSION['name'])){
                     
             </div>
         </div>
-        <footer>
+        <footer class="navbar-fixed-bottom">
             <p class="text-center" id="foot">
-                &copy; <a href="http://smarttutorials.net/" target="_blank">Smart Tutorials </a>2013
+                &copy; <a href="saikat.cf" target="_blank">developed by saikat </a>2013
             </p>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -110,6 +110,6 @@ if(!empty($_SESSION['name'])){
 </html>
 <?php }else{
     
- header( 'Location: http://localhost/new_quiz/index.php' ) ;
+ header( 'Location: http://dbfuck.epizy.com/index.php' ) ;
       
 }?>
